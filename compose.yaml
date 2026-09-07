@@ -1,0 +1,6 @@
+services:
+  ai-pet-demo:
+    build: .
+    ports:
+      - "8380:80"
+    restart: unless-stopped
